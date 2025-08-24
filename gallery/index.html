@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>光影瞬间</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📷 光影瞬间&nbsp;&nbsp;&nbsp;<small style="font-size: 0.6em; font-weight: normal;">完全由人工引导AI生成的相册网页</small></h1>
+    <nav id="keyword-nav"></nav>
+  </header>
+
+  <main id="gallery" class="fade-in"></main>
+
+  <footer>
+    <p>© <span id="year"></span> 光影瞬间</p>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
